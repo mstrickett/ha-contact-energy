@@ -79,6 +79,8 @@ class ContactEnergyUsageSensor(BaseSensor):
 
             currency = 'NZD'
 
+            last_dollar_value = 0.0  # Cache for previous dollarValue
+
             for i in range(self._usage_days):
                 current_date = today - timedelta(days=self._usage_days - i)
                 _LOGGER.debug("Fetching data for %s", current_date.strftime("%Y-%m-%d"))

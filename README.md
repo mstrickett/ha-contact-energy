@@ -6,13 +6,13 @@ Easily monitor your **energy usage and account details** directly in Home Assist
 ### **HACS (Recommended)**  
 1. Ensure [HACS is installed](https://hacs.xyz/docs/setup/download).  
 2. Click the button below to open the repository in HACS:  
-   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=notf0und&repository=ha-contact-energy&category=integration)  
+   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mstrickett&repository=ha-contact-energy&category=integration)  
 3. Install the **Contact Energy** integration.  
 4. Restart Home Assistant.  
 
 ### **Manual Installation**  
 1. Download the integration files from the repository.  
-2. Copy all files from `custom_components/contact_energy` to your Home Assistant folder `config/custom_components/contact_energy`
+2. Copy all files from `custom_components/contact_energy` to your Home Assistant folder `config/custom_components/contact_energy`s
 4. Restart Home Assistant
 
 
